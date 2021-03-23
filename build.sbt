@@ -8,6 +8,7 @@ lazy val scalajs = (project in file("."))
     scalaJSUseMainModuleInitializer := true,
     libraryDependencies ++= {
       Seq(
+        "org.scala-js" %%% "scalajs-dom" % "1.1.0",
         "com.lihaoyi" %% "utest" % "0.7.7" % Test
       )
     }
