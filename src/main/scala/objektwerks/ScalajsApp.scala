@@ -3,23 +3,28 @@ package objektwerks
 import org.scalajs.dom
 import org.scalajs.dom.document
 
-object ConsoleWebApp {
+object ScalajsApp {
+  val consoleText = "*** Scalajs console app! ***"
+  val webText = "*** Scalajs web app! ***"
+  val buttonLabel = "Click me!"
+  val buttonText = "*** Button clicked! ***"
+
   def main(args: Array[String]): Unit = {
     document.addEventListener("DOMContentLoaded", { (_: dom.Event) =>
       init()
     })
-    println("*** Scalajs console app! ***")
+    println(consoleText)
   }
 
   def init(): Unit = {
     val pElement = document.createElement("p")
-    pElement.textContent = "*** Scalajs web app! ***"
+    pElement.textContent = webText
     document.body.appendChild(pElement)
 
     val button = document.createElement("button")
-    button.textContent = "Click me!"
+    button.textContent = buttonLabel
     button.addEventListener("click", { (_: dom.MouseEvent) =>
-      println("*** Button clicked! ***")
+      println(buttonText)
     })
     document.body.appendChild(button)
     ()
