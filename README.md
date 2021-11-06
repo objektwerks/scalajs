@@ -4,17 +4,21 @@ Scalajs
 
 Install
 -------
-1. npm -g install jsdom
+1. npm install jsdom
 
 Build
 -----
 1. sbt clean compile fastLinkJS
 
+Test
+----
+1. sbt clean test
+
 Run
 ---
->Run via console:
+>Console:
 1. sbt clean compile fastLinkJS run
->Run via browser:   
+>Browser:
 1. Open src/main/resources/index.html.
 2. Select brower option from editor popup.
 3. Select newly opened tab to see index.html.
