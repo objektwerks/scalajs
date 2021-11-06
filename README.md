@@ -2,15 +2,18 @@ Scalajs
 -------
 >Scalajs feature tests.
 
+Install
+-------
+1. npm -g install jsdom
+
 Build
 -----
 1. sbt clean compile fastLinkJS
 
 Run
 ---
-1. sbt clean compile fastLinkJS
 >Run via console:
-1. sbt run
+1. sbt clean compile fastLinkJS run
 >Run via browser:   
 1. Open src/main/resources/index.html.
 2. Select brower option from editor popup.
