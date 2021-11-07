@@ -13,7 +13,8 @@ object ScalajsApp {
     document.addEventListener("DOMContentLoaded", { (_: dom.Event) =>
       init()
     })
-    println(consoleText)
+    println(s"*** [println] text: $consoleText")
+    scribe.info(s"*** [scribe] text: $consoleText")
   }
 
   def init(): Unit = {
