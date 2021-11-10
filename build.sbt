@@ -10,6 +10,7 @@ lazy val scalajs = (project in file("."))
       Seq(
         "org.scala-js" %%% "scalajs-dom" % "2.0.0",
         "com.outr" %%% "scribe" % "3.6.3",
+        "com.lihaoyi" %%% "ujson" % "1.4.2",
         "com.lihaoyi" %%% "utest" % "0.7.10" % Test
       )
     },
