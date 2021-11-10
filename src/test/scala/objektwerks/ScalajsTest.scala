@@ -9,10 +9,18 @@ object ScalajsTest extends TestSuite {
 
   val tests = Tests {
     test("paragraph") {
-      assert(document.querySelectorAll("p").count(_.textContent == ScalajsApp.webText) == 1)
+      assert(
+        document
+          .querySelectorAll("p")
+          .count(_.textContent == ScalajsApp.webText) == 1
+      )
     }
     test("button") {
-      assert(document.querySelectorAll("button").count(_.textContent == ScalajsApp.buttonLabel) == 1)
+      assert(
+        document
+          .querySelectorAll("button")
+          .count(_.textContent == ScalajsApp.buttonLabel) == 1
+      )
     }
   }
 }
