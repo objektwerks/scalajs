@@ -4,10 +4,10 @@ import org.scalajs.dom
 import org.scalajs.dom.document
 
 object ScalajsApp {
-  val consoleText = "*** Scalajs console app! ***"
-  val webText = "*** Scalajs web app! ***"
+  val consoleText = "Scalajs console app!"
+  val webText = "Scalajs web app!"
   val buttonLabel = "Click me!"
-  val buttonText = "*** Button clicked! ***"
+  val buttonText = "Button clicked!"
 
   def main(args: Array[String]): Unit = {
     document.addEventListener("DOMContentLoaded", { (_: dom.Event) =>
