@@ -23,4 +23,6 @@ object ScalajsTest extends TestSuite {
       )
     }
   }
+
+  TestRunner.run(tests)
 }
