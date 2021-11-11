@@ -18,9 +18,9 @@ object ScalajsApp {
   }
 
   def init(): Unit = {
-    val pElement = document.createElement("p")
-    pElement.textContent = webText
-    document.body.appendChild(pElement)
+    val paragraph = document.createElement("p")
+    paragraph.textContent = webText
+    document.body.appendChild(paragraph)
 
     val button = document.createElement("button")
     button.textContent = buttonLabel
