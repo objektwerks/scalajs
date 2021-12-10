@@ -4,6 +4,7 @@ Scalajs
 
 Install
 -------
+>jsdom **must** be install locally - **not** globally!
 1. npm install jsdom
 
 Build
