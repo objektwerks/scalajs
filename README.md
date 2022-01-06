@@ -5,7 +5,8 @@ Scalajs
 Install
 -------
 >jsdom **must** be installed locally - **not** globally!
-1. npm install jsdom
+1. brew install node
+2. npm install jsdom
 
 Build
 -----
