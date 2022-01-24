@@ -10,7 +10,7 @@ lazy val scalajs = (project in file("."))
       Seq(
         "org.scala-js" %%% "scalajs-dom" % "2.0.0",
         "com.outr" %%% "scribe" % "3.6.10",
-        "com.lihaoyi" %%% "utest" % "0.7.10" % Test
+        "com.lihaoyi" %%% "utest" % "0.7.11" % Test
       )
     },
     jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv(),
