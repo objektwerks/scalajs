@@ -1,6 +1,6 @@
 Scalajs
 -------
->Scalajs feature tests.
+>ScalaJs feature tests.
 
 Install
 -------
