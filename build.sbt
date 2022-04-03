@@ -9,7 +9,7 @@ lazy val scalajs = (project in file("."))
     libraryDependencies ++= {
       Seq(
         "org.scala-js" %%% "scalajs-dom" % "2.0.0",
-        "com.outr" %%% "scribe" % "3.6.10",
+        "com.outr" %%% "scribe" % "3.8.2",
         "com.lihaoyi" %%% "utest" % "0.7.11" % Test
       )
     },
