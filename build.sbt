@@ -4,7 +4,7 @@ lazy val scalajs = (project in file("."))
     name := "scalajs",
     organization := "objektwerks",
     version := "0.1-SNAPSHOT",
-    scalaVersion := "3.1.3-RC5"
+    scalaVersion := "3.1.3"
     scalaJSUseMainModuleInitializer := true,
     libraryDependencies ++= {
       Seq(
