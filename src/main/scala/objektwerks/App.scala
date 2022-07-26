@@ -25,4 +25,5 @@ def build(document: HTMLDocument): Unit =
   button.addEventListener("click", { (_: dom.MouseEvent) =>
     println("*** [println] Button clicked!")
   })
-  document.body.appendChild(button) 
+  document.body.appendChild(button)
+  ()
