@@ -1,5 +1,7 @@
 enablePlugins(ScalaJSPlugin)
 
+lazy val public = "public"
+
 name := "scalajs"
 organization := "objektwerks"
 version := "0.1-SNAPSHOT"
