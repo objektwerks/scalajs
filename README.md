@@ -2,6 +2,10 @@ Scalajs
 -------
 >ScalaJs feature tests.
 
+Warning
+-------
+>Project broken on 2022.7.26 due to: java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none>
+
 Install
 -------
 >jsdom **must** be installed locally - **not** globally!
