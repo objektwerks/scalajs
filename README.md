@@ -14,7 +14,7 @@ Build
 
 Test
 ----
-1. sbt clean test
+1. sbt test
 
 Run
 ---
