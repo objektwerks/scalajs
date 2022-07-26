@@ -4,8 +4,8 @@ import org.scalajs.dom.document
 
 import utest._
 
-object ScalajsTest extends TestSuite {
-  ScalajsApp.init()
+object AppTest extends TestSuite {
+  App.build(document)
 
   val tests = Tests {
     test("paragraph") {
