@@ -9,7 +9,6 @@ object App:
     document.addEventListener("DOMContentLoaded", { (_: dom.Event) =>
       build(document)
     })
-
     println("*** [println] text: Scalajs console app!")
     scribe.info("*** [scribe] text: Scalajs console app!")
 
