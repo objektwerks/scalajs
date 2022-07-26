@@ -15,3 +15,5 @@ libraryDependencies ++= {
 }
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 testFrameworks += new TestFramework("utest.runner.Framework")
+Compile / fastLinkJS / scalaJSLinkerOutputDirectory := target.value / public
+Compile / fullLinkJS / scalaJSLinkerOutputDirectory := target.value / public
