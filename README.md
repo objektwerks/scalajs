@@ -14,7 +14,7 @@ Build
 
 Test
 ----
-1. sbt test
+1. sbt test | sbt clean compile fastLinkJS test
 
 Run
 ---
