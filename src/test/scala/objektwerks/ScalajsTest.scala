@@ -12,14 +12,14 @@ object ScalajsTest extends TestSuite {
       assert(
         document
           .querySelectorAll("p")
-          .count(_.textContent == ScalajsApp.webText) == 1
+          .count(_.id == "pid") == 1
       )
     }
     test("button") {
       assert(
         document
           .querySelectorAll("button")
-          .count(_.textContent == ScalajsApp.buttonLabel) == 1
+          .count(_.id = "bid") == 1
       )
     }
   }
