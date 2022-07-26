@@ -3,21 +3,20 @@ package objektwerks
 import org.scalajs.dom
 import org.scalajs.dom.document
 
-object ScalajsApp {
+object ScalajsApp:
   val consoleText = "Scalajs console app!"
   val webText = "Scalajs web app!"
   val buttonLabel = "Click me!"
   val buttonText = "Button clicked!"
 
-  def main(args: Array[String]): Unit = {
+  def main(args: Array[String]): Unit =
     document.addEventListener("DOMContentLoaded", { (_: dom.Event) =>
       init()
     })
     println(s"*** [println] text: $consoleText")
     scribe.info(s"*** [scribe] text: $consoleText")
-  }
 
-  def init(): Unit = {
+  def init(): Unit =
     val paragraph = document.createElement("p")
     paragraph.textContent = webText
     document.body.appendChild(paragraph)
@@ -29,5 +28,3 @@ object ScalajsApp {
     })
     document.body.appendChild(button)
     ()
-  }
-}
