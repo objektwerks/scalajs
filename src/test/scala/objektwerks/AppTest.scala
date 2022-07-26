@@ -19,7 +19,7 @@ object AppTest extends TestSuite {
       assert(
         document
           .querySelectorAll("button")
-          .count(_.id = "bid") == 1
+          .count(_.id == "bid") == 1
       )
     }
   }

@@ -12,17 +12,17 @@ object App:
     println("*** [println] text: Scalajs console app!")
     scribe.info("*** [scribe] text: Scalajs console app!")
 
-def build(document: HTMLDocument): Unit =
-  val paragraph = document.createElement("p")
-  paragraph.id = "pid"
-  paragraph.textContent = "Scalajs web app!"
-  document.body.appendChild(paragraph)
+  def build(document: HTMLDocument): Unit =
+    val paragraph = document.createElement("p")
+    paragraph.id = "pid"
+    paragraph.textContent = "Scalajs web app!"
+    document.body.appendChild(paragraph)
 
-  val button = document.createElement("button")
-  button.id = "bid"
-  button.textContent = "Click me!"
-  button.addEventListener("click", { (_: dom.MouseEvent) =>
-    println("*** [println] Button clicked!")
-  })
-  document.body.appendChild(button)
-  ()
+    val button = document.createElement("button")
+    button.id = "bid"
+    button.textContent = "Click me!"
+    button.addEventListener("click", { (_: dom.MouseEvent) =>
+      println("*** [println] Button clicked!")
+    })
+    document.body.appendChild(button)
+    ()
