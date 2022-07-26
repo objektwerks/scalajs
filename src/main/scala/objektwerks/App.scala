@@ -9,8 +9,8 @@ object App:
     document.addEventListener("DOMContentLoaded", { (_: dom.Event) =>
       build(document)
     })
-    println("*** [println] text: Scalajs console app!")
-    scribe.info("*** [scribe] text: Scalajs console app!")
+    println("*** [println] Scalajs console app!")
+    scribe.info("*** [scribe] Scalajs console app!")
 
   def build(document: HTMLDocument): Unit =
     val paragraph = document.createElement("p")
@@ -23,6 +23,7 @@ object App:
     button.textContent = "Click me!"
     button.addEventListener("click", { (_: dom.MouseEvent) =>
       println("*** [println] Button clicked!")
+      scribe.info("*** [scribe] Button clicked!")
     })
     document.body.appendChild(button)
     ()
