@@ -12,7 +12,7 @@ libraryDependencies ++= {
   Seq(
     "org.scala-js" %%% "scalajs-dom" % "2.2.0",
     "com.outr" %%% "scribe" % "3.10.3",
-    "com.lihaoyi" %%% "utest" % "0.8.0" % Test
+    "com.lihaoyi" %%% "utest" % "0.8.1" % Test
   )
 }
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
