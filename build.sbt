@@ -14,6 +14,9 @@ libraryDependencies ++= {
     "com.lihaoyi" %%% "utest" % "0.8.1" % Test
   )
 }
+scalacOptions ++= Seq(
+  "-Wunused:all"
+)
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 testFrameworks += new TestFramework("utest.runner.Framework")
 Compile / fastLinkJS / scalaJSLinkerOutputDirectory := target.value / public
