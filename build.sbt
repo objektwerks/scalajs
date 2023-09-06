@@ -10,7 +10,7 @@ scalaJSUseMainModuleInitializer := true
 libraryDependencies ++= {
   Seq(
     "org.scala-js" %%% "scalajs-dom" % "2.6.0",
-    "com.outr" %%% "scribe" % "3.12.1",
+    "com.outr" %%% "scribe" % "3.12.2",
     "com.lihaoyi" %%% "utest" % "0.8.1" % Test
   )
 }
