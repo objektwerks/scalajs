@@ -1,6 +1,6 @@
 Scalajs
 -------
->ScalaJs feature tests.
+>ScalaJs feature tests using Scribe, uTest and Scala 3.
 
 Install
 -------
