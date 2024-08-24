@@ -11,7 +11,7 @@ libraryDependencies ++= {
   Seq(
     "org.scala-js" %%% "scalajs-dom" % "2.8.0",
     "com.outr" %%% "scribe" % "3.15.0",
-    "com.lihaoyi" %%% "utest" % "0.8.3" % Test
+    "com.lihaoyi" %%% "utest" % "0.8.4" % Test
   )
 }
 scalacOptions ++= Seq(
