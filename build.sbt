@@ -5,7 +5,7 @@ lazy val public = "public"
 name := "scalajs"
 organization := "objektwerks"
 version := "0.1-SNAPSHOT"
-scalaVersion := "3.8.0-RC6"
+scalaVersion := "3.8.1"
 scalaJSUseMainModuleInitializer := true
 libraryDependencies ++= {
   Seq(
